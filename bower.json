@@ -1,0 +1,21 @@
+{
+  "name": "random-product",
+  "homepage": "https://github.com/IamEmpty/random-product",
+  "authors": [
+    "IamEmpty <evolution.is.already.underway@gmail.com>"
+  ],
+  "description": "written in angular",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
