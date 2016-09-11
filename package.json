@@ -4,14 +4,14 @@
   "description": "angular app",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" \"npm run pug\" \"npm run stylus\" ",
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" \"npm run pug\" \"npm run stylus\"",
     "lite": "lite-server -c bs-config.json",
     "postinstall": "typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "pug": "pug -w index.pug -o dist/",
-    "stylus": "stylus -w -c styles.styl -o dist/",
+    "pug": "pug -w index.pug",
+    "stylus": "stylus -w -c styles.styl",
     "mkdir": "mkdir dist",
     "copy": "cp -R app/ dist/app/"
   },
