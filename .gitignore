@@ -5,6 +5,7 @@ bower_components/
 build/
 dist/
 
+# macOS
 .DS_Store
 
 app/*.js
