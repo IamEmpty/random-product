@@ -1,12 +1,11 @@
 {
   "name": "random-product",
-  "homepage": "https://github.com/IamEmpty/random-product",
+  "homepage": "https://github.com/pure-js/random-product",
   "authors": [
-    "IamEmpty <evolution.is.already.underway@gmail.com>"
+    "pure-js"
   ],
   "description": "written in angular",
   "main": "",
-  "moduleType": [],
   "keywords": [
     "angular"
   ],
