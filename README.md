@@ -1,9 +1,9 @@
 # Random product
 ## Description
 Suppose, server by request send array of elements in JSON format.
-Необходимо make SPA app on Angular.js, которое should выводить в случайном порядке карточку товара с возможностью лайкнуть или дислайкнуть соответствующий товар. Also должна быть страница на которой пользователь может посмотреть список товаров, которые он лайкнул и дислайкнул, удалить из списка или изменить свое решение. После того, как пользователь просмотрел все товары, должно появиться уведомление о том, что товаров больше нет.
-Желательно create application in node.js environment.
-Плюсом будет реализация backend on node.js, wich will отдавать JSON с товарами и обрабатывать пользовательские лайки/дислайки: add to  JSON item fields likes, dislikes, where will храниться суммарные значения числом.
+It is necessary to make a SPA app on Angular.js, which should output randomly the product card with the ability to go to or disconnect the corresponding product. Also there should be a page on which the user can see the list of goods that he lycnul and disliknul, remove from the list or change his decision. After the user has looked through all the goods, a notice should appear that the goods are no longer there.
+It is desirable to create an application in node.js environment.
+The plus is the implementation of backend on node.js, wich will give JSON with the goods and process custom likes / dislikes: add to JSON item fields likes, dislikes, where will the total values are stored by a number.
 ## Usage
 ```
 npm start
